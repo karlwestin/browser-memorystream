@@ -1,0 +1,22 @@
+{
+  "name": "browser-memorystream",
+  "version": "0.3.1",
+  "description": "build of memory stream for browserify",
+  "main": "index.js",
+  "dependencies": {
+    "memorystream": "^0.3.1"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"./node_modules/.bin/browserify index.js --standalone MemoryStream > dist/memorystream.js"
+  },
+  "keywords": [
+    "browser",
+    "memorystream"
+  ],
+  "author": "karl",
+  "license": "MIT"
+}

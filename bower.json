@@ -1,0 +1,26 @@
+{
+  "name": "browser-memorystream",
+  "main": "dist/memorystream.js",
+  "version": "0.3.1",
+  "authors": [
+    "Karl Westin <karl.westin@gmail.com>"
+  ],
+  "description": "MemoryStream in the browser",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "stream",
+    "memorystream"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
